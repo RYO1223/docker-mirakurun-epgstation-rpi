@@ -33,6 +33,7 @@ services:
             - ./epgstation/thumbnail:/app/thumbnail
             - ./epgstation/logs:/app/logs
             - ./recorded:/app/recorded
+            - ./regexp.so:/app/regexp.so
         environment:
             TZ: "Asia/Tokyo"
         depends_on:
