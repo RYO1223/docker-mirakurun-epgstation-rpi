@@ -33,7 +33,6 @@ services:
             - ./epgstation/thumbnail:/app/thumbnail
             - ./epgstation/logs:/app/logs
             # - ./recorded:/app/recorded
-            - /data/TV3/recorded:/app/recorded
         environment:
             TZ: "Asia/Tokyo"
         depends_on:
