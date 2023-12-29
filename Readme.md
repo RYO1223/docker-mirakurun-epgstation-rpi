@@ -21,6 +21,8 @@ dockerとdocker-composeのインストール
 
 https://docs.docker.com/engine/install/debian/#install-using-the-repository
 
+※raspiだとpcscdは動いてないみたい
+
 ```sh
 curl -sf https://raw.githubusercontent.com/l3tnun/docker-mirakurun-epgstation/v2/setup.sh | sh -s
 cd docker-mirakurun-epgstation
