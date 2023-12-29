@@ -4,7 +4,7 @@ mirakurunPath: http://mirakurun:40772/
 dbtype: sqlite
 sqlite:
   extensions:
-    - '/hoge/regexp.dylib'
+    - '/app/regexp.so'
   regexp: true
 
 # dbtype: mysql
