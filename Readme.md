@@ -10,6 +10,17 @@
 
 ## インストール手順
 
+64bitのRaspberryPi OS liteをインストールする
+SSHはオンにする
+
+マウントまで
+
+https://blog.ch3cooh.jp/entry/2023/02/25/174845#%E3%83%A9%E3%82%BA%E3%83%91%E3%82%A4%E3%81%AE%E8%A8%AD%E5%AE%9A%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88
+
+dockerとdocker-composeのインストール
+
+https://docs.docker.com/engine/install/debian/#install-using-the-repository
+
 ```sh
 curl -sf https://raw.githubusercontent.com/l3tnun/docker-mirakurun-epgstation/v2/setup.sh | sh -s
 cd docker-mirakurun-epgstation
