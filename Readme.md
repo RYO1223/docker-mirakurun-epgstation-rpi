@@ -10,7 +10,7 @@
 
 ## インストール手順
 
-32bit(重要)のRaspberryPi OS liteをインストールする
+64bit(重要)のRaspberryPi OS liteをインストールする
 
 SSHはオンにする
 
