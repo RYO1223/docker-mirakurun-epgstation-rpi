@@ -33,6 +33,7 @@ RUN apt-get update && \
       --enable-nonfree \
       --disable-debug \
       --disable-doc \
+      --enable-mmal \
       --enable-omx \
       --enable-omx-rpi \
     && \
