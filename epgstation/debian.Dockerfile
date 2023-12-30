@@ -32,6 +32,8 @@ RUN apt-get update && \
       --enable-nonfree \
       --disable-debug \
       --disable-doc \
+      --enable-omx \
+      --enable-omx-rpi \
     && \
     make -j$(nproc) && \
     make install && \
